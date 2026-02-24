@@ -1,6 +1,6 @@
-# DLinear Indian Stock Forecast (Full Stack)
+# Time Series Forecasting using Linear Models
 
-Full-stack project for forecasting Indian stock market prices with DLinear.
+Full-stack project for forecasting Indian stock market prices with Linear models (Dinear, Linear and NLinear).
 
 - Backend: FastAPI + PyTorch
 - Frontend: React (Vite)

@@ -606,8 +606,8 @@ function ForecastDashboard({ user, profile, theme, setTheme, onLogout }) {
 
       <aside className="sidebar">
         <div className="brand">
-          <div className="logo">ST</div>
-          <div><h1>StockPulse AI</h1><p>Enterprise Forecasting Console</p></div>
+          <div className="logo">K</div>
+          <div><h1>Kavout</h1><p>Enterprise Forecasting Console</p></div>
         </div>
 
         <section className="side-block">
@@ -690,7 +690,7 @@ function ForecastDashboard({ user, profile, theme, setTheme, onLogout }) {
           </div>
           <div>
             <p className="muted">Location</p>
-            <h3>{location.city ? `${location.city}, ${location.region}` : "Unavailable"}</h3>
+            <h3>{location.city ? `${location.city}, ${location.region}` : "Bhubaneswar, IN"}</h3>
             <span className="subline">{location.status === "blocked" ? "Enable location services" : "GPS-based"}</span>
           </div>
           <div>

@@ -200,7 +200,7 @@ def predict_endpoint(req: PredictRequest) -> PredictResponse:
         )
 
 
-# ENTRY POINT FOR python main.py
+
 if __name__ == "__main__":
 
     import uvicorn

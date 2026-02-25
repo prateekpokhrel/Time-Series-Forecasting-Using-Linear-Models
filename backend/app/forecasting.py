@@ -227,9 +227,9 @@ def _rollout_forecast_returns(
         out.append(stacked)
 
         # Build new row: update close channel, propagate others
-        new_row    = rolling[-1].copy()   # inherit last indicator values
-        new_row[0] = stacked              # update close return
-        rolling    = np.vstack([rolling[1:], new_row])
+        new_row             = rolling[-1].copy()   # inherit last indicator values
+        new_row[0]          = stacked              # update close return
+        rolling             = np.vstack([rolling[1:], new_row])
 
     return np.array(out, dtype=np.float32)
 
@@ -417,10 +417,9 @@ def run_stacked_forecast(
     in the '15d' view — they are both derived from daily_prices[0].
 
     Pipeline:
-        10-year daily OHLCV data
-          → compute 5-channel feature matrix (Close, Volume, RSI, MACD, HL-range)
-          → train 5-model ensemble (DLinear, Linear, NLinear, PatchTST, CARD)
-          → NNLS stacking → 30-day daily rollout
+        10-year daily data
+          → train DLinear + Linear + NLinear (daily returns)
+          → NNLS ensemble → 30-day daily rollout
           → expand to intraday granularity per horizon:
               "1d"  : day-1 close → 375 synthetic minute bars
               "15d" : days 1-15 closes → 90 synthetic hourly bars (6/day)

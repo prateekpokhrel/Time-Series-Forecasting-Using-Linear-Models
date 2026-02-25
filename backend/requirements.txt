@@ -4,4 +4,8 @@ torch
 numpy
 pandas
 yfinance
+<<<<<<< HEAD
 pydantic
+=======
+pydantic
+>>>>>>> cc5000d6a14516db49261019afca98d67f50e91d

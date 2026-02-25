@@ -1,0 +1,150 @@
+Reliance Industries
+
+Tata Consultancy Services
+
+HDFC Bank
+
+ICICI Bank
+
+Infosys
+
+State Bank of India
+
+Larsen & Toubro
+
+Hindustan Unilever
+
+Kotak Mahindra Bank
+
+Axis Bank
+
+Maruti Suzuki India
+
+Bharti Airtel
+
+Bajaj Finance
+
+Bajaj Finserv
+
+ITC
+
+Nestlé India
+
+Asian Paints
+
+Titan Company
+
+Wipro
+
+HCL Technologies
+
+Tech Mahindra
+
+Tata Motors
+
+Mahindra & Mahindra
+
+Bajaj Auto
+
+UltraTech Cement
+
+Sun Pharmaceutical Industries
+
+Dr. Reddy's Laboratories
+
+Cipla
+
+Divi's Laboratories
+
+Torrent Pharmaceuticals
+
+Apollo Hospitals Enterprise
+
+ICICI Prudential Life Insurance
+
+SBI Life Insurance
+
+HDFC Life Insurance
+
+IndusInd Bank
+
+Yes Bank
+
+Bandhan Bank
+
+IDFC First Bank
+
+Indian Oil Corporation
+
+ONGC
+
+Power Grid Corporation of India
+
+NTPC
+
+Tata Steel
+
+JSW Steel
+
+Vedanta
+
+Hindalco Industries
+
+Adani Enterprises
+
+Adani Ports & SEZ
+
+Adani Green Energy
+
+n","Adani Green Energy","nse-listed"]
+50. Adani Transmission
+51. Tata Consumer Products
+52. Britannia Industries
+53. Colgate‑Palmolive (India)
+54. Marico
+55. Dabur India
+56. Pidilite Industries
+57. Bosch Limited
+58. Escorts Limited
+59. Hero MotoCorp
+60. Eicher Motors
+61. Coal India
+62. NMDC
+63. GAIL (India) Limited
+64. Bharat Petroleum Corporation (BPCL)
+65. Hindustan Petroleum Corporation (HPCL)
+66. Grasim Industries
+67. Shree Cement
+68. Ambuja Cements
+69. ACC Limited
+70. Tata Power Company
+71. JSW Energy
+72. Lupin
+73. Aurobindo Pharma
+74. Glenmark Pharmaceuticals
+75. Biocon
+76. Zomato
+77. One97 Communications (Paytm)
+78. Delhivery
+79. Zee Entertainment Enterprises
+80. Pidilite (repeat check)
+81. Torrent Power
+82. Jubilant FoodWorks
+83. Tata Elxsi
+84. PVR INOX
+85. SBI Cards and Payments Services
+86. Mahindra & Mahindra Financial Services
+87. Pidilite Industries (already listed)
+88. Tata Chemicals
+89. Ashok Leyland
+90. Axis Capital (and investment banks)
+91. LIC Housing Finance
+92. Sun TV Network
+93. PC Jeweller
+94. GMR Infrastructure
+95. Godrej Consumer Products
+96. Yes Bank (repeat potential)
+97. IDBI Bank
+98. Punjabi National Bank
+99. Bank of Baroda
+100. Canara Bank

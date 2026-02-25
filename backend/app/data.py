@@ -256,6 +256,7 @@ def make_future_business_days(last_date: pd.Timestamp, horizon: int) -> list[pd.
         current = current + pd.Timedelta(days=1)
         if current.weekday() < 5:
             dates.append(current)
+<<<<<<< HEAD
     return dates
 
 
@@ -403,3 +404,6 @@ def compute_feature_matrix(df: pd.DataFrame) -> np.ndarray:
 
     feat = np.column_stack([ret, vol_ret, rsi14_ret, macd_z, hl_z])
     return np.nan_to_num(feat, nan=0.0, posinf=0.0, neginf=0.0).astype(np.float32)
+=======
+    return dates
+>>>>>>> cc5000d6a14516db49261019afca98d67f50e91d

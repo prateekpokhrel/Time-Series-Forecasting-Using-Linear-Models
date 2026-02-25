@@ -606,8 +606,13 @@ function ForecastDashboard({ user, profile, theme, setTheme, onLogout }) {
 
       <aside className="sidebar">
         <div className="brand">
+<<<<<<< HEAD
           <div className="logo">ST</div>
           <div><h1>StockPulse AI</h1><p>Enterprise Forecasting Console</p></div>
+=======
+          <div className="logo">K</div>
+          <div><h1>Kavout</h1><p>Enterprise Forecasting Console</p></div>
+>>>>>>> cc5000d6a14516db49261019afca98d67f50e91d
         </div>
 
         <section className="side-block">
@@ -690,7 +695,11 @@ function ForecastDashboard({ user, profile, theme, setTheme, onLogout }) {
           </div>
           <div>
             <p className="muted">Location</p>
+<<<<<<< HEAD
             <h3>{location.city ? `${location.city}, ${location.region}` : "Unavailable"}</h3>
+=======
+            <h3>{location.city ? `${location.city}, ${location.region}` : "Bhubaneswar, IN"}</h3>
+>>>>>>> cc5000d6a14516db49261019afca98d67f50e91d
             <span className="subline">{location.status === "blocked" ? "Enable location services" : "GPS-based"}</span>
           </div>
           <div>
@@ -807,11 +816,17 @@ function ForecastDashboard({ user, profile, theme, setTheme, onLogout }) {
             <div className="panel-head"><h3>Stacking Weights</h3></div>
             {!forecast ? <div className="empty small">No forecast yet.</div> : (
               <ul className="stat-list">
+<<<<<<< HEAD
                 <li><span>DLinear</span>      <strong>{(forecast.stack_weights.dlinear  * 100).toFixed(2)}%</strong></li>
                 <li><span>Linear Model</span> <strong>{(forecast.stack_weights.linear   * 100).toFixed(2)}%</strong></li>
                 <li><span>NLinear Model</span><strong>{(forecast.stack_weights.nlinear  * 100).toFixed(2)}%</strong></li>
                 <li><span>PatchTST</span>     <strong>{(forecast.stack_weights.patchtst * 100).toFixed(2)}%</strong></li>
                 <li><span>CARD</span>         <strong>{(forecast.stack_weights.card     * 100).toFixed(2)}%</strong></li>
+=======
+                <li><span>DLinear</span>      <strong>{(forecast.stack_weights.dlinear * 100).toFixed(2)}%</strong></li>
+                <li><span>Linear Model</span> <strong>{(forecast.stack_weights.linear  * 100).toFixed(2)}%</strong></li>
+                <li><span>NLinear Model</span><strong>{(forecast.stack_weights.nlinear * 100).toFixed(2)}%</strong></li>
+>>>>>>> cc5000d6a14516db49261019afca98d67f50e91d
               </ul>
             )}
           </article>
@@ -822,8 +837,11 @@ function ForecastDashboard({ user, profile, theme, setTheme, onLogout }) {
                 <li><span>DLinear</span>      <strong>{forecast.model_mse.dlinear.toFixed(8)}</strong></li>
                 <li><span>Linear Model</span> <strong>{forecast.model_mse.linear.toFixed(8)}</strong></li>
                 <li><span>NLinear Model</span><strong>{forecast.model_mse.nlinear.toFixed(8)}</strong></li>
+<<<<<<< HEAD
                 <li><span>PatchTST</span>     <strong>{forecast.model_mse.patchtst.toFixed(8)}</strong></li>
                 <li><span>CARD</span>         <strong>{forecast.model_mse.card.toFixed(8)}</strong></li>
+=======
+>>>>>>> cc5000d6a14516db49261019afca98d67f50e91d
                 <li><span>Stacked</span>      <strong>{forecast.model_mse.stacked.toFixed(8)}</strong></li>
               </ul>
             )}
